@@ -1,2 +1,6 @@
 diamond module for puppet
 https://github.com/BrightcoveOS/Diamond
+
+ * assumes the diamond package is available in a repo (you can build it yourself)
+
+patches welcome!
