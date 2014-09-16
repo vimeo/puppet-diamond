@@ -21,7 +21,7 @@ class diamond (
     enable    => true,
     restart   => 'service diamond stop; service diamond start',
     hasstatus => true,
-    require   => File['/etc/diamond/diamond.conf'],
+    require   => File['diamond.conf'],
   }
 }
 
